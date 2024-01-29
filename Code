@@ -1,0 +1,54 @@
+# intro-to-html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>James Brown</title>
+</head>
+<body>
+    <!-- Site Header -->
+    <header>
+        <h1>James Brown</h1>
+    </header>
+
+    <!-- Main Content -->
+    <main>
+        <!-- About Me Article -->
+        <article>
+            <h2>About Me</h2>
+            <img src="images/Pain1.png" alt="James Brown">
+            <p>To intro this I guess i'll discuss why I got into coding, the short answer is because several games I played wouldn't have specific community mods that filled my niche so I sought to make my own in a version of c++.</p>
+            <p>The other reason why I got into coding is I enjoy seeing how things work behind the scenes, so coding provides an interesting angle behind the web and see hidden details that otherwise would go unnoticed.</p>
+            <blockquote>
+                "Live fast, die young, leave a good looking corpse."
+                <cite>James Brown</cite>
+            </blockquote>
+        </article>
+
+        <!-- My Skills Section -->
+        <section>
+            <h2>My Skills</h2>
+            <ul>
+                <li>coding/modding</li>
+                <li>discussing the fall of the roman empire</li>
+            </ul>
+        </section>
+
+        <!-- Graphic Design Courses Section -->
+        <section>
+            <h2>Graphic Design Courses</h2>
+            <ol>
+                <li>Typography 2</li>
+                <li>Web design 1</li>
+                
+            </ol>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2024 James. All rights reserved.</p>
+    </footer>
+</body>
+</html>
